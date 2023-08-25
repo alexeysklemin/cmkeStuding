@@ -1,3 +1,0 @@
-C:/newCmakeLearningFoulder/cmkeStuding/medcine/build-medcine-Desktop_a5c41e-Debug/CMakeFiles/medcine.dir
-C:/newCmakeLearningFoulder/cmkeStuding/medcine/build-medcine-Desktop_a5c41e-Debug/CMakeFiles/edit_cache.dir
-C:/newCmakeLearningFoulder/cmkeStuding/medcine/build-medcine-Desktop_a5c41e-Debug/CMakeFiles/rebuild_cache.dir
