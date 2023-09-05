@@ -4,13 +4,11 @@
 int ram[8] = {0,0,0,0,0,0,0,0};
 
 
-void write (int ram[8]){
-input();
+void write (int address, int value){
+	ram[address] = value;
 }
 
-void read (int ram[8]){
+int read (int address){
 
-	for(int i=0; i<8; ++i ){
-		std::cout<<ram[i]<<"\t";
-	}
+	return ram[address];
 }
