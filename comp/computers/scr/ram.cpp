@@ -1,7 +1,7 @@
 #include "ram.h"
 #include "kbd.h"
 
-int ram[8] = {0,0,0,0,0,0,0,0};
+ int ram[8] = {0,0,0,0,0,0,0,0};
 
 
 void write (int address, int value){

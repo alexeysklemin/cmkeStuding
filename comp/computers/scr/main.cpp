@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <fstream>
 #include "cpu.h"
 #include "ram.h"
 #include "disk.h"

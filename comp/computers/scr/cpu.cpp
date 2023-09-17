@@ -1,3 +1,5 @@
+#include <fstream>
+
 #include "cpu.h"
 
 void cpu(){

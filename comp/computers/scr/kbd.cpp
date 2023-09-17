@@ -1,4 +1,5 @@
 #include <iostream>
+#include "kbd.h"
 
 void input(){
 
