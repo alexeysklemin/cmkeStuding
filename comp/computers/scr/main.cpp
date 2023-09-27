@@ -30,7 +30,7 @@ while(true){
 		input();
 
 		case "sum":
-		sum();
+		sum(&ram);
 
 		case "save":
 		save();

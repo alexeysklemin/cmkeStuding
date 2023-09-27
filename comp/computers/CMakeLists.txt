@@ -4,6 +4,25 @@ project(computers LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(INCLUDE_DIR ${CMAKE_SOURCE_DIR}/hdrs)
+set(SOURCE_DIR ${CMAKE_SOURCE_DIR}/scr)
 
-add_subdirectory(scr)
+include_directories(${INCLUDE_DIR})
+
+add_executable(
+	${PROJECT_NAME}
+	${SOURECE_DIR}/main.cpp
+	${SOURCE_DIR}/cpu.cpp
+	${SOURCE_DIR}/disk.cpp
+	${SOURCE_DIR}/gpu.cpp
+	${SOURCE_DIR}/kbd.cpp
+	${SOURCE_DIR}/ram.cpp
+
+	${INCLUDE_DIR}/cpu.h
+	${INCLUDE_DIR}/disk.h
+	${INCLUDE_DIR}/gpu.h
+	${INCLUDE_DIR}/kbd.h
+	${INCLUDE_DIR}/ram.h
+
+target_include_directories(${PROJECT_NAME} PUBLIC ${INCLUDE_DIR})
 

@@ -1,5 +1,6 @@
-#ifndef CPU_H
-#define CPU_H
+#ifndef GPU_H
+#define GPU_H
 #include <iostream>
+#include "ram.h"
 void display ();
-#endif // CPU_H
+#endif // GPU_H

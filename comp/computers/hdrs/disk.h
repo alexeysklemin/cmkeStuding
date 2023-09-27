@@ -1,7 +1,8 @@
-#ifndef CPU_H
-#define CPU_H
+#ifndef _DISK_H_
+#define _DISK_H_
 #include <iostream>
 #include <fstream>
+#include "ram.h"
 void save ();
 void load ();
-#endif // CPU_H
+#endif // _DISK_H_
