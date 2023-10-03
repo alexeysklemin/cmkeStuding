@@ -4,10 +4,10 @@
 
 
 
-void save (int address, int value){
+void save (int &ram[8]){
 	
 	std::ofstream disk;
-	disk.open("diskspace.txt");
+	disk.open("data.txt");
 	if(!disk){
 	
 	}else{
@@ -20,11 +20,11 @@ void save (int address, int value){
 	}
 }
 
-void load (int address){
+void load (int &ram[8]){
 
 	std::ifstream disk;
 	unsigned int mem;
-	disk.open("diskspace.txt");
+	disk.open("data.txt");
 	if(!disk){
 		std::cout<<"The RAM is empty"<<std::endl;
 		}else{

@@ -1,5 +1,3 @@
-#include <fstream>
-
 #include "cpu.h"
 
 int sum(int &ram[8]){

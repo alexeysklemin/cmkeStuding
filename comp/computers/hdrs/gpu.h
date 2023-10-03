@@ -2,5 +2,5 @@
 #define GPU_H
 #include <iostream>
 #include "ram.h"
-void display ();
+void display (int &ram[8]);
 #endif // GPU_H

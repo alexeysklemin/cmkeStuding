@@ -1,10 +1,10 @@
 #include "cpu.h"
 #include "ram.h"
 
-void display(){
+void display(int &ram[8]){
 	char command;
 	
-	std::cout<<"What do you want to eatch array (A) or summ (S)?\n";
+	std::cout<<"What do you want to watch array (A) or summ (S)?\n";
 	std::cin command;
 	
 	switch command{
