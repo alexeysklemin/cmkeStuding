@@ -1,15 +1,13 @@
 #include "ram.h"
 #include "kbd.h"
 
-
-
-
 void save (int &ram[8]){
 	
 	std::ofstream disk;
 	disk.open("data.txt");
 	if(!disk){
-	
+		std::cout<<"file not found"<<std::endl;
+		
 	}else{
 		while(!disk.eof()){
 			for(int i=0; i<8; ++i){
