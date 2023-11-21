@@ -11,38 +11,47 @@
 
 int main(){
     
-	std::string command;
+	char* command;
 
 while(true){
 
 	std::cout<<"What is your command now? ";
 	std::cin>>command;
 
-	switch command{
+	switch (command) {
 
 		case "exit":
 		break;
 
 		case "display":
-		display();
+		display(ram);
 
 		case "input":
 		input();
 
 		case "sum":
-		sum(&ram);
+		sum(ram);
 
 		case "save":
-		save();
+		save(ram);
 
 		case "load":
-		load();
+		load(ram);
 
 		case "write":
-		write();
+        int addrs=0;
+        int val=0;
+        std::cout<<"What address are you interested? ";
+        std::cin>>addrs;
+        std::cout<<"What value are you have? ";
+        std::cin>>val;
+		write(addrs, val);
 
 		case "read":
-		read();
+        std::cout<<"What adress are you interestef? ";
+        int adrss;
+        std::cin>>adrs;
+        read(adrss);
 	}
 }
 

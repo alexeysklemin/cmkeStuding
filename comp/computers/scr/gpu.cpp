@@ -1,7 +1,7 @@
 #include "cpu.h"
 #include "ram.h"
 
-void display(int &ram[8]){
+void display(int ram[8]){
 	char command;
 	
 	std::cout<<"What do you want to watch array (A) or summ (S)?\n";
@@ -10,7 +10,7 @@ void display(int &ram[8]){
 	switch command{
 		
 		case 'S':
-		std::cout<<sum(&ram)<<std::endl;
+		std::cout<<sum(ram)<<std::endl;
 		
 		case 'A':
 		

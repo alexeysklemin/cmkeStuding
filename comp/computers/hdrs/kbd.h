@@ -2,5 +2,5 @@
 #define _KBD_H_
 #include <iostream>
 void input();
-#endif _KBD_H_
+#endif  // KBD_H_
 
