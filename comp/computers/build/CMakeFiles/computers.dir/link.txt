@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/computers.dir/scr/main.cpp.o CMakeFiles/computers.dir/scr/cpu.cpp.o CMakeFiles/computers.dir/scr/disk.cpp.o CMakeFiles/computers.dir/scr/gpu.cpp.o CMakeFiles/computers.dir/scr/kbd.cpp.o CMakeFiles/computers.dir/scr/ram.cpp.o -o computers 
