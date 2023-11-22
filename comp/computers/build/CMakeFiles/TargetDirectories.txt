@@ -1,3 +1,0 @@
-/home/alex/cmkeStuding/comp/computers/build/CMakeFiles/rebuild_cache.dir
-/home/alex/cmkeStuding/comp/computers/build/CMakeFiles/edit_cache.dir
-/home/alex/cmkeStuding/comp/computers/build/CMakeFiles/computers.dir

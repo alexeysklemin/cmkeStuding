@@ -1,7 +1,7 @@
 #include "ram.h"
 #include "kbd.h"
-
-void save (int &ram[8]){
+#include "disk.h"
+void save (int ram[8]){
 	
 	std::ofstream disk;
 	disk.open("data.txt");
@@ -18,16 +18,18 @@ void save (int &ram[8]){
 	}
 }
 
-void load (int &ram[8]){
+void load (int ram[8]){
 
 	std::ifstream disk;
-	unsigned int mem;
+	//unsigned 
+	int mem;
 	disk.open("data.txt");
 	if(!disk){
 		std::cout<<"The RAM is empty"<<std::endl;
 		}else{
-			while(std::getline(disk, mem)){
-			
+			while(disk){
+                disk>>mem;
+                //std::getline(disk, mem);
 				std::cout<<mem<<std::endl;
 				}
 			} 

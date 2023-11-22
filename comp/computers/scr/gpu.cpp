@@ -5,9 +5,9 @@ void display(int ram[8]){
 	char command;
 	
 	std::cout<<"What do you want to watch array (A) or summ (S)?\n";
-	std::cin command;
+	std::cin>> command;
 	
-	switch command{
+	switch (command){
 		
 		case 'S':
 		std::cout<<sum(ram)<<std::endl;
@@ -18,4 +18,5 @@ void display(int ram[8]){
 			std::cout<<ram[i]<<"\t";
 			}
 			std::cout<<std::endl;
+	}
 }
