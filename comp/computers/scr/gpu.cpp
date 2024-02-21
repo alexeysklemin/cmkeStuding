@@ -1,5 +1,6 @@
 #include "cpu.h"
-#include "ram.h"
+//#include "ram.h"
+#include "gpu.h"
 
 void display(int ram[8]){
 	char command;

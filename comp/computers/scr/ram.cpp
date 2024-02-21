@@ -1,11 +1,11 @@
 #include "ram.h"
-#include "kbd.h"
+//#include "kbd.h"
 
-//  ram = {0,0,0,0,0,0,0,0};
+//ram[8] = {0,0,0,0,0,0,0,0};
 
 
 void write (int address, int value){
-	input();
+//	input();
 	ram[address] = value;
 }
 

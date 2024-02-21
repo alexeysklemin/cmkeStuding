@@ -1,4 +1,4 @@
-#include "ram.h"
+//#include "ram.h"
 #include "kbd.h"
 #include "disk.h"
 void save (int ram[8]){

@@ -12,6 +12,9 @@
 int main(){
     
 	int command;
+    
+    int ram[8] = {0,0,0,0,0,0,0,0};
+
 
 while(true){
     std::cout<<"\t\t 1. display memory\n";

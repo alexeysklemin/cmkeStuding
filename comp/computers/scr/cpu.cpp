@@ -1,5 +1,5 @@
 #include "cpu.h"
-#include "ram.h"
+//#include "ram.h"
 
 int sum(int ram[8]){
     int sum=0;
