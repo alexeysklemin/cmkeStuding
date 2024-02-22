@@ -9,16 +9,10 @@ class Phone{
 
 public:
 	
-	void  add (std::map<std::string, std::string> phoneBook){
-		
-	}
+	void  add (std::map<std::string, std::string> phoneBook);
 
-	void call(std::map<std::string, std::string> phoneBook){
+	void call(std::map<std::string, std::string> phoneBook);
 
-	}
-
-	void sms(std::map<std::string, std::string> phoneBook){
-
-	}
+	void sms(std::map<std::string, std::string> phoneBook);
 };
 #endif // PHONE_H
